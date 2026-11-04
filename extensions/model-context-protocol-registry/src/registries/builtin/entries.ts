@@ -7,6 +7,19 @@ const METABRAIN_DB_PATH = join(homedir(), ".metabrain.db");
 
 export const OFFICIAL_ENTRIES: RegistryEntry[] = [
   {
+    name: "tachtien",
+    title: "Tachtien",
+    description:
+      "Look up the Dutch word tachtien (uncountably many): definition, pronunciation, origin, examples and mentions. Rewrite vague large amounts in Dutch or English text as tachtien, or ask whether an amount counts. 5 read-only tools. Hosted remote Streamable HTTP server; no account or API key.",
+    icon: "https://tachtien.nl/apple-touch-icon.png",
+    homepage: "https://mcp.tachtien.nl/",
+    configuration: {
+      command: "npx",
+      args: ["-y", "mcp-remote", "https://mcp.tachtien.nl/mcp"],
+    },
+    remoteUrl: "https://mcp.tachtien.nl/mcp",
+  },
+  {
     name: "sofya",
     title: "Sofya",
     description:

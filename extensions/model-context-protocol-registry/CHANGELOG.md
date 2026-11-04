@@ -1,5 +1,9 @@
 # Model Context Protocol Registry Changelog
 
+## [Add Tachtien MCP Server] - {PR_MERGE_DATE}
+
+- Add Tachtien to the official registry: look up the Dutch word tachtien (uncountably many), rewrite vague large amounts in Dutch or English text as tachtien, or ask whether an amount counts. 5 read-only tools. Hosted Streamable HTTP server at https://mcp.tachtien.nl/mcp with no account or API key, a direct HTTP connection in Raycast and an `mcp-remote` fallback for other clients.
+
 ## [Add WolfSMS MCP Server] - 2026-11-04
 
 - Add WolfSMS to the official registry: read the SMS on your own Android phone (recent messages, filter by sender or time, synced devices). 3 tools. Hosted Streamable HTTP server at https://usewolfsms.com/mcp with OAuth 2.1 sign-in (dynamic client registration and PKCE), a direct HTTP connection in Raycast and an `mcp-remote` fallback for other clients.
